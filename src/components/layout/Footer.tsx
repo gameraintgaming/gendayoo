@@ -20,7 +20,6 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Brand */}
           <div>
             <h3 className="text-xl font-bold mb-4">Portfolio</h3>
             <p className="text-gray-400">
@@ -28,7 +27,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Navigation */}
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -45,7 +43,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Social & Contact */}
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex gap-4 mb-4">

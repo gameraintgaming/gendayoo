@@ -15,7 +15,6 @@ export default function Navigation() {
 
   return (
     <nav className="relative">
-      {/* Desktop Navigation */}
       <ul className="hidden md:flex items-center gap-8">
         {navItems.map((item) => (
           <li key={item.href}>
@@ -29,7 +28,6 @@ export default function Navigation() {
         ))}
       </ul>
 
-      {/* Mobile Hamburger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="md:hidden p-2 text-gray-600 dark:text-gray-300"
@@ -60,7 +58,6 @@ export default function Navigation() {
         </svg>
       </button>
 
-      {/* Mobile Navigation */}
       {isOpen && (
         <ul className="absolute top-full right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg py-2 md:hidden">
           {navItems.map((item) => (

@@ -18,14 +18,12 @@ export default function About() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Profile Image Placeholder */}
           <div className="flex justify-center">
             <div className="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-6xl font-bold">
               GC
             </div>
           </div>
 
-          {/* Content */}
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
               Hello! I'm a passionate developer.
